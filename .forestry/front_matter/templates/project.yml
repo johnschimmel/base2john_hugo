@@ -25,3 +25,5 @@ fields:
   type: image_gallery
   config: {}
   label: Images
+pages:
+- content/prjcts/test-project.md
