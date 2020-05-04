@@ -1,4 +1,27 @@
 ---
 label: Project
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: when_
+  type: text
+  config:
+    required: false
+  label: When?
+- name: content
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Content
+- name: images
+  type: image_gallery
+  config: {}
+  label: Images
